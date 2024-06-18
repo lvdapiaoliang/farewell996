@@ -36,6 +36,7 @@
     <swagger3.version>2.2.0</swagger3.version>
     <fastjson2.version>2.0.40</fastjson2.version>
     <persistence-api.version>1.0.2</persistence-api.version>
+    <spring.data.version>2024.0.1</spring.data.version>
     <spring.boot.test.version>3.1.5</spring.boot.test.version>
     <spring.boot.version>3.1.7</spring.boot.version>
     <spring.cloud.version>2022.0.4</spring.cloud.version>
@@ -166,6 +167,14 @@
         <groupId>io.zipkin.reporter2</groupId>
         <artifactId>zipkin-reporter-brave</artifactId>
         <version>${zipkin-reporter-brave.version}</version>
+      </dependency>
+      <!--spring Data-->
+      <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-bom</artifactId>
+        <version>${spring.data.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
       </dependency>
     </dependencies>
   </dependencyManagement>
