@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: disruptor
+server:
+  port: 20000
+

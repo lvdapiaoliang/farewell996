@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    password: Xx@125313
+    username: root
+    url: r2dbc:mysql://localhost:3306/farewell996
+    name: farewell996
+logging:
+  level:
+    org.springframework.r2dbc: debug
+

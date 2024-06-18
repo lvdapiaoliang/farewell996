@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lvdapiaoliang.mapper.WorkOrderAnswerFileEasyAskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lvdapiaoliang.entity.WorkOrderAnswerFileEasyAsk">
+        <id column="id" property="id" />
+        <result column="work_order_answer_id" property="workOrderAnswerId" />
+        <result column="work_order_id" property="workOrderId" />
+        <result column="file_url" property="fileUrl" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, work_order_answer_id, work_order_id, file_url
+    </sql>
+
+</mapper>
