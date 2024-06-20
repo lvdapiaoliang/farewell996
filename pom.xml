@@ -19,6 +19,7 @@
     <module>disruptor</module>
     <module>jdk-new-features</module>
     <module>DomainDrivenDesign</module>
+    <module>Spring</module>
   </modules>
   <packaging>pom</packaging>
 
